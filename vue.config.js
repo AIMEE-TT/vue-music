@@ -1,6 +1,6 @@
 module.exports = {
-	publicPath: process.env.NODE_ENV === "production" ? "/vue-music" : "/",
-  outputDir: 'root',
+  outputDir: 'dist',
+	publicPath: process.env.NODE_ENV === "production" ? "/[vue-music]" : "/",
     configureWebpack:{
         resolve:{
             alias:{
